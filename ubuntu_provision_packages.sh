@@ -8,7 +8,7 @@ echo ""
 
 # Essential packages available in the PPA
 echo "Installing essential packages..."
-sudo apt install git curl vim zsh
+sudo apt install -y git curl vim zsh htop nload
 
 
 # Neofetch
