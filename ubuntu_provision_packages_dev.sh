@@ -6,4 +6,7 @@ echo "This will install all the required dev packages that I (xtremekforever) us
 echo ""
 
 echo "Installing essential build packages..."
-sudo apt install build-essential cmake
+sudo apt install -y build-essential cmake dos2unix
+
+echo "Installing packages required for Autotools projects..."
+sudo apt install -y libtool autoconf automake 

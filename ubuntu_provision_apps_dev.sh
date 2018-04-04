@@ -70,4 +70,5 @@ sudo dpkg -i $VSCODE_TEMP
 
 echo "Installing VSCode Extensions..."
 code --install-extension akamud.vscode-theme-onedark
+code --install-extension maelvalais.autoconf
 code --install-extension ms-vscode.cpptools
