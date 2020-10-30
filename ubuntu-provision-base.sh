@@ -15,9 +15,9 @@ echo "Installing essential packages..."
 sudo apt install -y git curl vim zsh htop nload neofetch build-essential
 
 # Bashtop
-echo "Add bashtop PPA and installing..."
+echo "Adding bashtop PPA and installing..."
 sudo add-apt-repository -y ppa:bashtop-monitor/bashtop
-sudo apt install -y bashtop
+sudo apt install -y bashtop python3-psutil
 
 # Change default editor to vim
 echo "Changing default editor..."
