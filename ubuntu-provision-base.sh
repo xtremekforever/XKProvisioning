@@ -11,17 +11,25 @@ sudo apt update
 sudo apt upgrade -y
 
 # Essential packages available in the PPA
+echo ""
 echo "Installing essential packages..."
 sudo apt install -y git curl vim zsh htop nload neofetch build-essential
 
 # Bashtop
+echo ""
 echo "Adding bashtop PPA and installing..."
 sudo add-apt-repository -y ppa:bashtop-monitor/bashtop
 sudo apt install -y bashtop python3-psutil
 
 # Change default editor to vim
+echo ""
 echo "Changing default editor..."
 sudo update-alternatives --config editor
+
+# Give a chance to change sudo rules
+echo ""
+echo "Opening visudo to change sudo rules..."
+sudo visudo
 
 # Oh-my-zsh
 echo ""
