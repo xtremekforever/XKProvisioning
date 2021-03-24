@@ -17,9 +17,9 @@ sudo apt install -y git curl vim zsh htop nload neofetch build-essential
 
 # Bashtop
 echo ""
-echo "Adding bashtop PPA and installing..."
-sudo add-apt-repository -y ppa:bashtop-monitor/bashtop
-sudo apt install -y bashtop python3-psutil
+echo "Installing pip3 and bpytop..."
+sudo apt install -y python3-pip
+sudo -H pip3 intall bpytop --upgrade
 
 # Change default editor to vim
 echo ""
