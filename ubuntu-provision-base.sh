@@ -19,7 +19,7 @@ sudo apt install -y git curl vim zsh htop nload neofetch build-essential
 echo ""
 echo "Installing pip3 and bpytop..."
 sudo apt install -y python3-pip
-sudo -H pip3 intall bpytop --upgrade
+sudo -H pip3 install bpytop --upgrade
 
 # Change default editor to vim
 echo ""
